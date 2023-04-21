@@ -47,4 +47,12 @@ public class Author {
 
     public void getAuthorName(Class<Author> authorClass, int aId1) {
     }
+    @Override
+    public String toString() {
+        return "Author{" +
+                "authorId=" + authorId +
+                ", authorName='" + authorName + '\'' +
+                ", bookList=" + bookList +
+                '}';
+    }
 }
