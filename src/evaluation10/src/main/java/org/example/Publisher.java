@@ -55,4 +55,15 @@ public class Publisher {
 
     public Publisher() {
     }
+    
+    @Override
+    public String toString() {
+        return "Book{" +
+                "bookId=" + bookId +
+                ", bookName='" + bookName + '\'' +
+                ", bookPrice=" + bookPrice +
+                ", author=" + author +
+                ", publisher=" + publisher +
+                '}';
+    }
 }
